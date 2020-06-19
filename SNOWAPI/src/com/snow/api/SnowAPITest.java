@@ -5,9 +5,9 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
-public class APITest {
+public class SnowAPITest {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException { 
 
 		Properties prop = readPropertiesFile("resources/snow.properties");
 		System.out.println("endpint.url.dev: " + prop.getProperty("endpint.url.dev"));
